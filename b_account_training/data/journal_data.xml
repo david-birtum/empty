@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data noupdate="1">
+        <record id="training_journal" model="account.journal">
+            <field name="name">Customer invoices TR</field>
+            <field name="type">sale</field>
+            <field name="code">INVTR</field>
+            <field name="is_training_journal">True</field>
+        </record>
+        <record id="training_vendor_journal" model="account.journal">
+            <field name="name">Vendor invoices TR</field>
+            <field name="type">purchase</field>
+            <field name="code">FACTR</field>
+            <field name="is_training_journal">True</field>
+        </record>
+        <record id="training_cash_journal" model="account.journal">
+            <field name="name">Payment cash TR</field>
+            <field name="type">cash</field>
+            <field name="code">PCTR</field>
+            <field name="is_training_journal">True</field>
+        </record>
+        <record id="training_bank_journal" model="account.journal">
+            <field name="name">Payment bank TR</field>
+            <field name="type">bank</field>
+            <field name="code">PBTR</field>
+            <field name="is_training_journal">True</field>
+        </record>
+        <record id="training_general_journal" model="account.journal">
+            <field name="name">General TR</field>
+            <field name="type">general</field>
+            <field name="code">GTR</field>
+            <field name="is_training_journal">True</field>
+        </record>
+    </data>
+</odoo>

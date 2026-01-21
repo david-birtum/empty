@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- account.journal inherit form view -->
+    <record id="account_journal_view_form_inherit" model="ir.ui.view">
+        <field name="name">account.journal.view.form.inherit</field>
+        <field name="model">account.journal</field>
+        <field name="inherit_id" ref="account.view_account_journal_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='country_code']" position="after">
+                <group name="training_settings" string="Training settings">
+                    <field name="is_training_journal" groups="b_account_training.user_account_training"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

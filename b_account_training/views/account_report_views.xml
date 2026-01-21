@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- account.reports inherit form view -->
+    <record id="account_report_view_form_inherit" model="ir.ui.view">
+        <field name="name">account.report.view.form.inherit</field>
+        <field name="model">account.report</field>
+        <field name="inherit_id" ref="account_reports.account_report_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='filter_unfold_all']" position="after">
+                <field name="filter_show_training" groups="b_account_training.user_account_training"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data noupdate="0">
+        <record id="module_category_account_training" model="ir.module.category">
+            <field name="name">Training</field>
+            <field name="parent_id" ref="base.module_category_accounting"/>
+            <field name="sequence">20</field>
+            <!-- <field name="visible" eval="0" /> -->
+        </record>
+        <record id="user_account_training" model="res.groups">
+            <field name="name">User</field>
+            <field name="comment">Allowed user to use all account training features</field>
+            <field name="category_id" ref="module_category_account_training"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+        <record id="admin_account_training" model="res.groups">
+            <field name="name">Admin</field>
+            <field name="comment">Allowed user to use and set up all account training features</field>
+            <field name="category_id" ref="module_category_account_training"/>
+            <field name="implied_ids" eval="[(4, ref('b_account_training.user_account_training'))]"/>
+        </record>
+    </data>
+</odoo>

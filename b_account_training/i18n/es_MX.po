@@ -1,0 +1,251 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* b_account_training
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-29 16:49+0000\n"
+"PO-Revision-Date: 2024-07-29 12:54-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_account_report
+msgid "Accounting Report"
+msgstr "Reporte contable"
+
+#. module: b_account_training
+#: model:res.groups,name:b_account_training.admin_account_training
+msgid "Admin"
+msgstr "Admin"
+
+#. module: b_account_training
+#. odoo-python
+#: code:addons/b_account_training/models/account_move.py:0
+#, python-format
+msgid "All training invoices must have a training journal selected."
+msgstr ""
+"Todas las facturas de capacitación deben tener seleccionado un diario de "
+"capacitación."
+
+#. module: b_account_training
+#: model:res.groups,comment:b_account_training.user_account_training
+msgid "Allowed user to use all account training features"
+msgstr ""
+"Usuario que se le permite utilizar todas las funciones de capacitación de la "
+"cuenta"
+
+#. module: b_account_training
+#: model:res.groups,comment:b_account_training.admin_account_training
+msgid "Allowed user to use and set up all account training features"
+msgstr ""
+"Usuario permitido usar y configurar todas las funciones de capacitación de "
+"la cuenta"
+
+#. module: b_account_training
+#. odoo-python
+#: code:addons/b_account_training/models/sale_order.py:0
+#, python-format
+msgid "Cannot create training and regular invoices together."
+msgstr "No se pueden crear facturas regulares y de capacitación juntas."
+
+#. module: b_account_training
+#: model:account.journal,name:b_account_training.training_journal
+msgid "Customer invoices TR"
+msgstr "Facturas de clientes TR"
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_account_edi_format
+msgid "EDI format"
+msgstr "Formato EDI"
+
+#. module: b_account_training
+#: model:ir.model.fields,help:b_account_training.field_purchase_order__is_training_purchase
+#: model:ir.model.fields,help:b_account_training.field_purchase_report__is_training_purchase
+#: model:ir.model.fields,help:b_account_training.field_sale_order__is_training_sale
+#: model:ir.model.fields,help:b_account_training.field_sale_report__is_training_sale
+msgid "Enables the order to be treated as training."
+msgstr "Permite que la orden sea tratada como de capacitación."
+
+#. module: b_account_training
+#: model:ir.model.fields,field_description:b_account_training.field_account_bank_statement_line__is_training_invoice
+#: model:ir.model.fields,field_description:b_account_training.field_account_move__is_training_invoice
+#: model:ir.model.fields,field_description:b_account_training.field_account_payment__is_training_invoice
+msgid "Is training invoice/entry?"
+msgstr "¿Es factura/entrada de capacitación?"
+
+#. module: b_account_training
+#: model:ir.model.fields,field_description:b_account_training.field_account_move_line__is_training_invoice
+msgid "Is training invoice?"
+msgstr "¿Es factura de capacitación?"
+
+#. module: b_account_training
+#: model:ir.model.fields,field_description:b_account_training.field_account_journal__is_training_journal
+msgid "Is training journal?"
+msgstr "¿Es un diario de capacitación?"
+
+#. module: b_account_training
+#: model:ir.model.fields,field_description:b_account_training.field_account_payment__is_training_payment
+msgid "Is training payment?"
+msgstr "¿Es un pago de capacitación?"
+
+#. module: b_account_training
+#: model:ir.model.fields,field_description:b_account_training.field_purchase_order__is_training_purchase
+#: model:ir.model.fields,field_description:b_account_training.field_purchase_report__is_training_purchase
+msgid "Is training purchase?"
+msgstr "¿Es una compra de capacitación?"
+
+#. module: b_account_training
+#: model:ir.model.fields,field_description:b_account_training.field_account_bank_statement_line__is_training_readonly
+#: model:ir.model.fields,field_description:b_account_training.field_account_move__is_training_readonly
+#: model:ir.model.fields,field_description:b_account_training.field_account_payment__is_training_readonly
+msgid "Is training readonly?"
+msgstr "¿El entrenamiento es de solo lectura?"
+
+#. module: b_account_training
+#: model:ir.model.fields,field_description:b_account_training.field_sale_order__is_training_sale
+#: model:ir.model.fields,field_description:b_account_training.field_sale_report__is_training_sale
+msgid "Is training sale?"
+msgstr "¿Es una venta de capacitación?"
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_account_journal
+msgid "Journal"
+msgstr "Diario"
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_account_partial_reconcile
+msgid "Partial Reconcile"
+msgstr "Conciliación parcial"
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_purchase_order
+msgid "Purchase Order"
+msgstr "Pedido de compra"
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_purchase_report
+msgid "Purchase Report"
+msgstr "Reporte de compras"
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_account_payment_register
+msgid "Register Payment"
+msgstr "Registrar pago"
+
+#. module: b_account_training
+#. odoo-python
+#: code:addons/b_account_training/models/account_move.py:0
+#, python-format
+msgid "Regular invoices cannot have a training journal selected."
+msgstr ""
+"Las facturas periódicas no pueden tener seleccionado un diario de "
+"capacitación."
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_sale_report
+msgid "Sales Analysis Report"
+msgstr "Informe de análisis de ventas"
+
+#. module: b_account_training
+#: model:ir.model,name:b_account_training.model_sale_order
+msgid "Sales Order"
+msgstr "Orden de venta"
+
+#. module: b_account_training
+#. odoo-python
+#: code:addons/b_account_training/wizards/account_payment_register.py:0
+#, python-format
+msgid ""
+"The register payment wizard should only be called on account.move or account."
+"move.line records."
+msgstr ""
+"El asistente de pago de registros solo debe llamarse en registros account."
+"move o account.move.line."
+
+#. module: b_account_training
+#. odoo-python
+#: code:addons/b_account_training/models/purchase_order.py:0
+#, python-format
+msgid "There must be at least a Training purchase journal set up."
+msgstr "Debe haber al menos un diario de compras de Capacitación configurado."
+
+#. module: b_account_training
+#. odoo-python
+#: code:addons/b_account_training/models/account_move.py:0
+#: code:addons/b_account_training/models/sale_order.py:0
+#, python-format
+msgid "There must be at least a Training sale journal set up."
+msgstr "Debe haber al menos un diario de ventas de Capacitación configurado."
+
+#. module: b_account_training
+#: model:ir.module.category,name:b_account_training.module_category_account_training
+msgid "Training"
+msgstr "Capacitación"
+
+#. module: b_account_training
+#: model:ir.model.fields,field_description:b_account_training.field_account_report__filter_show_training
+msgid "Training Entries"
+msgstr "Entradas de Capacitación"
+
+#. module: b_account_training
+#: model_terms:ir.ui.view,arch_db:b_account_training.purchase_order_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:b_account_training.sale_order_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:b_account_training.view_order_product_search_inherit
+#: model_terms:ir.ui.view,arch_db:b_account_training.view_purchase_order_search_inherit
+msgid "Training Orders"
+msgstr "Órdenes de capacitación"
+
+#. module: b_account_training
+#: model_terms:ir.ui.view,arch_db:b_account_training.account_move_view_search_inherit
+msgid "Training invoices"
+msgstr "Facturas de capacitación"
+
+#. module: b_account_training
+#: model_terms:ir.ui.view,arch_db:b_account_training.account_journal_view_form_inherit
+msgid "Training settings"
+msgstr "Ajustes de capacitación"
+
+#. module: b_account_training
+#: model:res.groups,name:b_account_training.user_account_training
+msgid "User"
+msgstr "Usuario"
+
+#. module: b_account_training
+#: model:account.journal,name:b_account_training.training_vendor_journal
+msgid "Vendor invoices TR"
+msgstr "Facturas de proveedores TR"
+
+#, python-format
+#~ msgid "Include Training Entries"
+#~ msgstr "Incluir entradas de capacitación"
+
+#. module: b_account_training
+#. odoo-javascript
+#: code:addons/b_account_training/static/src/components/account_reports/filter_extra_options.xml:0
+#, python-format
+msgid "Include Training Entries"
+msgstr "Incluir entradas de capacitación"

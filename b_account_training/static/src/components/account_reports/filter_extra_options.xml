@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="b_account_training.FilterShowTrainingFilterExtraOption" t-inherit="account_reports.AccountReportFilterExtraOptions" t-inherit-mode="extension">
+        <xpath expr="//t[@t-set-slot='content']" position="inside">
+            <DropdownItem
+                class="{ 'selected': controller.options.training_entries }"
+                onSelected="() => this.filterClicked({ optionKey: 'training_entries', reload: true})"
+                closingMode="'none'"
+            >
+                Include Training Entries
+            </DropdownItem>
+        </xpath>
+    </t>
+</templates>
